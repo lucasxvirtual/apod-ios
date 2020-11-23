@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Apod.xcodeproj">
+      location = "self:/Users/lucas/Documents/ios/Apod/ApodApp.xcodeproj">
    </FileRef>
 </Workspace>

@@ -15,6 +15,12 @@
 		A050EEA4256B351B000EE1AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A050EEA2256B351B000EE1AE /* LaunchScreen.storyboard */; };
 		A050EEAF256B351B000EE1AE /* ApodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050EEAE256B351B000EE1AE /* ApodTests.swift */; };
 		A050EEBA256B351B000EE1AE /* ApodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050EEB9256B351B000EE1AE /* ApodUITests.swift */; };
+		A050EEC9256B360B000EE1AE /* Apod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050EEC8256B360B000EE1AE /* Apod.swift */; };
+		A050EECC256B3765000EE1AE /* ApodListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050EECB256B3765000EE1AE /* ApodListView.swift */; };
+		A050EECE256B3942000EE1AE /* ApodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050EECD256B3942000EE1AE /* ApodView.swift */; };
+		A050EED1256B3C96000EE1AE /* ImageLoaderAndCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050EED0256B3C96000EE1AE /* ImageLoaderAndCache.swift */; };
+		A050EED4256B42FD000EE1AE /* ApodListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050EED3256B42FD000EE1AE /* ApodListViewModel.swift */; };
+		A050EED6256B498A000EE1AE /* NavigationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A050EED5256B498A000EE1AE /* NavigationConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A050EE94256B3518000EE1AE /* Apod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A050EE94256B3518000EE1AE /* ApodApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApodApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A050EE97256B3518000EE1AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A050EE99256B3518000EE1AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A050EE9B256B3518000EE1AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,12 +49,18 @@
 		A050EEA0256B351B000EE1AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A050EEA3256B351B000EE1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A050EEA5256B351B000EE1AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A050EEAA256B351B000EE1AE /* ApodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A050EEAA256B351B000EE1AE /* ApodAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApodAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A050EEAE256B351B000EE1AE /* ApodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodTests.swift; sourceTree = "<group>"; };
 		A050EEB0256B351B000EE1AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A050EEB5256B351B000EE1AE /* ApodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A050EEB5256B351B000EE1AE /* ApodAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApodAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A050EEB9256B351B000EE1AE /* ApodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodUITests.swift; sourceTree = "<group>"; };
 		A050EEBB256B351B000EE1AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A050EEC8256B360B000EE1AE /* Apod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apod.swift; sourceTree = "<group>"; };
+		A050EECB256B3765000EE1AE /* ApodListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodListView.swift; sourceTree = "<group>"; };
+		A050EECD256B3942000EE1AE /* ApodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodView.swift; sourceTree = "<group>"; };
+		A050EED0256B3C96000EE1AE /* ImageLoaderAndCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderAndCache.swift; sourceTree = "<group>"; };
+		A050EED3256B42FD000EE1AE /* ApodListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodListViewModel.swift; sourceTree = "<group>"; };
+		A050EED5256B498A000EE1AE /* NavigationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +91,7 @@
 		A050EE8B256B3518000EE1AE = {
 			isa = PBXGroup;
 			children = (
-				A050EE96256B3518000EE1AE /* Apod */,
+				A050EE96256B3518000EE1AE /* ApodApp */,
 				A050EEAD256B351B000EE1AE /* ApodTests */,
 				A050EEB8256B351B000EE1AE /* ApodUITests */,
 				A050EE95256B3518000EE1AE /* Products */,
@@ -89,25 +101,28 @@
 		A050EE95256B3518000EE1AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A050EE94256B3518000EE1AE /* Apod.app */,
-				A050EEAA256B351B000EE1AE /* ApodTests.xctest */,
-				A050EEB5256B351B000EE1AE /* ApodUITests.xctest */,
+				A050EE94256B3518000EE1AE /* ApodApp.app */,
+				A050EEAA256B351B000EE1AE /* ApodAppTests.xctest */,
+				A050EEB5256B351B000EE1AE /* ApodAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A050EE96256B3518000EE1AE /* Apod */ = {
+		A050EE96256B3518000EE1AE /* ApodApp */ = {
 			isa = PBXGroup;
 			children = (
+				A050EED2256B42ED000EE1AE /* ViewModel */,
+				A050EECF256B3C87000EE1AE /* Util */,
+				A050EECA256B368B000EE1AE /* View */,
+				A050EEC7256B35F1000EE1AE /* Model */,
 				A050EE97256B3518000EE1AE /* AppDelegate.swift */,
 				A050EE99256B3518000EE1AE /* SceneDelegate.swift */,
-				A050EE9B256B3518000EE1AE /* ContentView.swift */,
 				A050EE9D256B351B000EE1AE /* Assets.xcassets */,
 				A050EEA2256B351B000EE1AE /* LaunchScreen.storyboard */,
 				A050EEA5256B351B000EE1AE /* Info.plist */,
 				A050EE9F256B351B000EE1AE /* Preview Content */,
 			);
-			path = Apod;
+			path = ApodApp;
 			sourceTree = "<group>";
 		};
 		A050EE9F256B351B000EE1AE /* Preview Content */ = {
@@ -136,12 +151,47 @@
 			path = ApodUITests;
 			sourceTree = "<group>";
 		};
+		A050EEC7256B35F1000EE1AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A050EEC8256B360B000EE1AE /* Apod.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A050EECA256B368B000EE1AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A050EE9B256B3518000EE1AE /* ContentView.swift */,
+				A050EECB256B3765000EE1AE /* ApodListView.swift */,
+				A050EECD256B3942000EE1AE /* ApodView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A050EECF256B3C87000EE1AE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A050EED0256B3C96000EE1AE /* ImageLoaderAndCache.swift */,
+				A050EED5256B498A000EE1AE /* NavigationConfigurator.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A050EED2256B42ED000EE1AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A050EED3256B42FD000EE1AE /* ApodListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A050EE93256B3518000EE1AE /* Apod */ = {
+		A050EE93256B3518000EE1AE /* ApodApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A050EEBE256B351B000EE1AE /* Build configuration list for PBXNativeTarget "Apod" */;
+			buildConfigurationList = A050EEBE256B351B000EE1AE /* Build configuration list for PBXNativeTarget "ApodApp" */;
 			buildPhases = (
 				A050EE90256B3518000EE1AE /* Sources */,
 				A050EE91256B3518000EE1AE /* Frameworks */,
@@ -151,14 +201,14 @@
 			);
 			dependencies = (
 			);
-			name = Apod;
+			name = ApodApp;
 			productName = Apod;
-			productReference = A050EE94256B3518000EE1AE /* Apod.app */;
+			productReference = A050EE94256B3518000EE1AE /* ApodApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A050EEA9256B351B000EE1AE /* ApodTests */ = {
+		A050EEA9256B351B000EE1AE /* ApodAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A050EEC1256B351B000EE1AE /* Build configuration list for PBXNativeTarget "ApodTests" */;
+			buildConfigurationList = A050EEC1256B351B000EE1AE /* Build configuration list for PBXNativeTarget "ApodAppTests" */;
 			buildPhases = (
 				A050EEA6256B351B000EE1AE /* Sources */,
 				A050EEA7256B351B000EE1AE /* Frameworks */,
@@ -169,14 +219,14 @@
 			dependencies = (
 				A050EEAC256B351B000EE1AE /* PBXTargetDependency */,
 			);
-			name = ApodTests;
+			name = ApodAppTests;
 			productName = ApodTests;
-			productReference = A050EEAA256B351B000EE1AE /* ApodTests.xctest */;
+			productReference = A050EEAA256B351B000EE1AE /* ApodAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A050EEB4256B351B000EE1AE /* ApodUITests */ = {
+		A050EEB4256B351B000EE1AE /* ApodAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A050EEC4256B351B000EE1AE /* Build configuration list for PBXNativeTarget "ApodUITests" */;
+			buildConfigurationList = A050EEC4256B351B000EE1AE /* Build configuration list for PBXNativeTarget "ApodAppUITests" */;
 			buildPhases = (
 				A050EEB1256B351B000EE1AE /* Sources */,
 				A050EEB2256B351B000EE1AE /* Frameworks */,
@@ -187,9 +237,9 @@
 			dependencies = (
 				A050EEB7256B351B000EE1AE /* PBXTargetDependency */,
 			);
-			name = ApodUITests;
+			name = ApodAppUITests;
 			productName = ApodUITests;
-			productReference = A050EEB5256B351B000EE1AE /* ApodUITests.xctest */;
+			productReference = A050EEB5256B351B000EE1AE /* ApodAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +265,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A050EE8F256B3518000EE1AE /* Build configuration list for PBXProject "Apod" */;
+			buildConfigurationList = A050EE8F256B3518000EE1AE /* Build configuration list for PBXProject "ApodApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +278,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A050EE93256B3518000EE1AE /* Apod */,
-				A050EEA9256B351B000EE1AE /* ApodTests */,
-				A050EEB4256B351B000EE1AE /* ApodUITests */,
+				A050EE93256B3518000EE1AE /* ApodApp */,
+				A050EEA9256B351B000EE1AE /* ApodAppTests */,
+				A050EEB4256B351B000EE1AE /* ApodAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -267,8 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A050EECC256B3765000EE1AE /* ApodListView.swift in Sources */,
 				A050EE98256B3518000EE1AE /* AppDelegate.swift in Sources */,
+				A050EECE256B3942000EE1AE /* ApodView.swift in Sources */,
+				A050EEC9256B360B000EE1AE /* Apod.swift in Sources */,
 				A050EE9A256B3518000EE1AE /* SceneDelegate.swift in Sources */,
+				A050EED1256B3C96000EE1AE /* ImageLoaderAndCache.swift in Sources */,
+				A050EED4256B42FD000EE1AE /* ApodListViewModel.swift in Sources */,
+				A050EED6256B498A000EE1AE /* NavigationConfigurator.swift in Sources */,
 				A050EE9C256B3518000EE1AE /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,12 +350,12 @@
 /* Begin PBXTargetDependency section */
 		A050EEAC256B351B000EE1AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A050EE93256B3518000EE1AE /* Apod */;
+			target = A050EE93256B3518000EE1AE /* ApodApp */;
 			targetProxy = A050EEAB256B351B000EE1AE /* PBXContainerItemProxy */;
 		};
 		A050EEB7256B351B000EE1AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A050EE93256B3518000EE1AE /* Apod */;
+			target = A050EE93256B3518000EE1AE /* ApodApp */;
 			targetProxy = A050EEB6256B351B000EE1AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,9 +491,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Apod/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ApodApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Apod/Info.plist;
+				INFOPLIST_FILE = ApodApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,9 +510,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Apod/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ApodApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Apod/Info.plist;
+				INFOPLIST_FILE = ApodApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,7 +541,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apod.app/Apod";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApodApp.app/ApodApp";
 			};
 			name = Debug;
 		};
@@ -506,7 +562,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apod.app/Apod";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApodApp.app/ApodApp";
 			};
 			name = Release;
 		};
@@ -551,7 +607,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A050EE8F256B3518000EE1AE /* Build configuration list for PBXProject "Apod" */ = {
+		A050EE8F256B3518000EE1AE /* Build configuration list for PBXProject "ApodApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A050EEBC256B351B000EE1AE /* Debug */,
@@ -560,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A050EEBE256B351B000EE1AE /* Build configuration list for PBXNativeTarget "Apod" */ = {
+		A050EEBE256B351B000EE1AE /* Build configuration list for PBXNativeTarget "ApodApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A050EEBF256B351B000EE1AE /* Debug */,
@@ -569,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A050EEC1256B351B000EE1AE /* Build configuration list for PBXNativeTarget "ApodTests" */ = {
+		A050EEC1256B351B000EE1AE /* Build configuration list for PBXNativeTarget "ApodAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A050EEC2256B351B000EE1AE /* Debug */,
@@ -578,7 +634,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A050EEC4256B351B000EE1AE /* Build configuration list for PBXNativeTarget "ApodUITests" */ = {
+		A050EEC4256B351B000EE1AE /* Build configuration list for PBXNativeTarget "ApodAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A050EEC5256B351B000EE1AE /* Debug */,
